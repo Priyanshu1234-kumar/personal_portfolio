@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
-import myAvatar from '../assets/Images/IMG-20220626-WA0012-01-04__1_-removebg-preview.png'
+import myAvatar from '../assets/Images/pk_avtar.png'
 import { motion } from 'framer-motion'
 import { mediaQueries } from "./Themes"
 
