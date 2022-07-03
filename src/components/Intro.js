@@ -33,7 +33,7 @@ const Box= styled(motion.div)`
         width: 65vw;
     `}
     ${mediaQueries(60)`
-        width: 70vw;
+        width: 50vw;
     `}
     ${mediaQueries(50)`
         width: 50vw;

@@ -19,7 +19,7 @@ export const Education = [
         branch: "ISC",
         marks: "76%",
         date: "2018-2020",
-        imgSrc: "https://duexpress.in/wp-content/uploads/2018/06/2.jpg",
+        imgSrc: "https://i.ytimg.com/vi/cdyP4Z7viKk/maxresdefault.jpg",
         link : "https://sbsc.in/"
     },
 
