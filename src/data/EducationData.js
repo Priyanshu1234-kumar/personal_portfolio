@@ -9,7 +9,8 @@ export const Education = [
         branch: "B.Tech EEE",
         marks: "CGPA - 9.15",
         date: "September 2020 - Present",
-        imgSrc: vit
+        imgSrc: vit,
+        link: "https://vit.ac.in/"
     },
 
     {
@@ -19,6 +20,7 @@ export const Education = [
         marks: "76%",
         date: "2018-2020",
         imgSrc: "https://duexpress.in/wp-content/uploads/2018/06/2.jpg",
+        link : "https://sbsc.in/"
     },
 
     {
@@ -28,6 +30,7 @@ export const Education = [
         marks: "85%",
         date: "2009-2018",
         imgSrc: "https://th.bing.com/th/id/R.33acf2c1a7bc68272df37a74c23ff7f4?rik=FpK9uSzexutJNA&riu=http%3a%2f%2fdavnabinagar.com%2fFile%2f4564%2fd9b60115-edbd-4b77-b0ee-968b560e61ca_sch.jpg&ehk=2ErDaN3nXfWTK3k%2fr4bNKlrjAi64lDsJ4lASA72QSOE%3d&risl=&pid=ImgRaw&r=0",
+        link: "http://davnabinagar.com/"
 
     },
 
@@ -36,7 +39,8 @@ export const Education = [
         name: "IEEE Industry Applications Society - VIT",
         branch: "Core Committee Member (Technical)",
         date: "December 2020 - Present",
-        imgSrc: ieee
+        imgSrc: ieee,
+        link: "https://www.ieeeiasvit.in/"
     },
 
 ] 

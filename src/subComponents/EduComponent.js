@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion'
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import { mediaQueries } from '../components/Themes'
 
 
-const Box= styled(motion.div)`
+const Box= styled(motion(NavLink))`
     width: calc(8rem + 8vw);
     margin-right: 0 !important;
     text-decoration: none;
@@ -110,11 +111,11 @@ const Item= {
 
 const EduComponent = (props) => {
 
-    const {name, branch, marks, date, imgSrc}= props.exp;
+    const {name, branch, marks, date, imgSrc,link}= props.exp;
 
     return (
         <Container variants= {Item} >
-            <Box>
+            <Box target="_blank" to={{pathname: link}}>
                 <Image img= {imgSrc} />
                 <Title>{name}</Title>
                 <Branch>{branch}<br/>{marks}</Branch>
